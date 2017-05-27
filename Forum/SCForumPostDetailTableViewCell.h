@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+@class SCReplyListInformation;
 
 @interface SCForumPostDetailTableViewCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UIImageView *head;

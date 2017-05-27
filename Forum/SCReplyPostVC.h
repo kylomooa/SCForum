@@ -6,6 +6,8 @@
 //  Copyright © 2017年 Goose. All rights reserved.
 //
 
+@class SCRootVC;
+
 #import "SCRootVC.h"
 
 @protocol SCReplyPostViewControllerDelegate <NSObject>

@@ -6,6 +6,7 @@
 //  Copyright © 2017 Goose. All rights reserved.
 //
 
+@class SCScrollViewController;
 #import "SCScrollViewController.h"
 
 @interface SCForumViewController : SCScrollViewController
