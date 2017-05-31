@@ -6,9 +6,8 @@
 //  Copyright © 2017年 Goose. All rights reserved.
 //
 
-@class SCRootVC;
 
-#import "SCRootVC.h"
+#import <UIKit/UIKit.h>
 
 @protocol SCReplyPostViewControllerDelegate <NSObject>
 
@@ -19,7 +18,7 @@
 
 @end
 
-@interface SCReplyPostVC : SCRootVC
+@interface SCReplyPostVC : UIViewController
 
 @property (nonatomic, weak) id<SCReplyPostViewControllerDelegate> delegate;
 @end
